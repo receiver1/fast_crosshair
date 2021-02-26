@@ -92,5 +92,5 @@ public:
 		// Восстанавливаем протекцию
 		VirtualProtect(LPVOID(hookAddress), 5, ulProtection, &ulProtection);
 	}
-} 
+}
 entry;
